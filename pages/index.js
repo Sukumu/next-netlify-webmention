@@ -13,6 +13,7 @@ const Index = ({ posts, title, description, ...props }) => {
       .then((response) => response.json())
       .then((result) => {
         setMentions(result.children);
+      console.log(result);
       });
   }, []);
   return (
