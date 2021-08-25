@@ -15,9 +15,7 @@ export default function Header() {
             Twitter
           </a>
     
-          </a>  <a href="https://twitter.com/sukumu4" rel="me">
-            Twitter sukumu
-          </a>
+          <a href="https://twitter.com/sukumu4" rel="me"> Twitter sukumu </a>
         
         </nav>
       </header>
