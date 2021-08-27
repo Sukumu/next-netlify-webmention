@@ -14,10 +14,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
             <link rel="webmention" href="https://webmention.io/webmentions-next.netlify.app/webmention" />
             <link rel="pingback" href="https://webmention.io/webmentions-next.netlify.app/xmlrpc"/>
 
-        <title>{pageTitle}</title>
-         <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-         <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-        
+        <title>{pageTitle}</title>                
       </Head>
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&display=swap');
