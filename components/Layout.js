@@ -8,11 +8,11 @@ export default function Layout({ children, pageTitle, description, ...props }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
-        <meta name="Description" content={description}></meta>           
-            <link rel="webmention" href="https://webmention.io/webmentions-next.netlify.app/webmention" />
-            <link rel="pingback" href="https://webmention.io/webmentions-next.netlify.app/xmlrpc" />        
+        <meta name="Description" content={description}></meta>        
             <link rel="webmention" href="https://webmention.io/sukumu.com/webmention" />
-             <link rel="pingback" href="https://webmention.io/sukumu.com/xmlrpc" />
+            <link rel="pingback" href="https://webmention.io/sukumu.com/xmlrpc" />
+            <link rel="webmention" href="https://webmention.io/webmentions-next.netlify.app/webmention" />
+            <link rel="pingback" href="https://webmention.io/webmentions-next.netlify.app/xmlrpc" />    
         <title>{pageTitle}</title>
       </Head>
       <style jsx global>{`
