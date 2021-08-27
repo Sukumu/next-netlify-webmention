@@ -13,8 +13,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
             <link rel="pingback" href="https://webmention.io/sukumu.com/xmlrpc" />
             <link rel="webmention" href="https://webmention.io/webmentions-next.netlify.app/webmention" />
             <link rel="pingback" href="https://webmention.io/webmentions-next.netlify.app/xmlrpc" />
-            <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-            <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+
         <title>{pageTitle}</title>
       </Head>
       <style jsx global>{`
