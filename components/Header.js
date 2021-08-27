@@ -13,10 +13,11 @@ export default function Header() {
           </Link>
           <a href="https://twitter.com/gentrymediapro" rel="me">
             Twitter
-          </a>
+          </a>   
     
           <a href="https://twitter.com/sukumu4" rel="me"> Twitter sukumu </a>
-        
+          <a href="https://www.linkedin.com/in/simba-gentry-99267b71/" rel="me"> LinkedIn </a>
+           
         </nav>
       </header>
       <style jsx>{`
