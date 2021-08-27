@@ -8,7 +8,7 @@ const Index = ({ posts, title, description, ...props }) => {
   const [mentions, setMentions] = useState([]);
   useEffect(() => {
     fetch(
-      'https://webmention.io/api/mentions.jf2?domain=webmentions-next.netlify.app&token=7EYmT-ELqtcIrIxRJmaj3Q',
+  'https://webmention.io/api/mentions.jf2?domain=sukumu.com&token=lWeKyI6a61dVQGfRLWfUpg’,
     )
       .then((response) => response.json())
       .then((result) => {
