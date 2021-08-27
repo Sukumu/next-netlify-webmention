@@ -17,7 +17,7 @@ export default function Header() {
     
           <a href="https://twitter.com/sukumu4" rel="me"> Twitter sukumu </a>
           <a href="https://www.linkedin.com/in/simba-gentry-99267b71/" rel="me"> LinkedIn </a>
-           
+           <a href="https://medium.com/@sukumu73" rel="me"> Medium </a>           
         </nav>
       </header>
       <style jsx>{`
