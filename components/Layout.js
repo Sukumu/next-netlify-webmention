@@ -11,7 +11,8 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <meta name="Description" content={description}></meta>           
             <link rel="webmention" href="https://webmention.io/webmentions-next.netlify.app/webmention" />
             <link rel="pingback" href="https://webmention.io/webmentions-next.netlify.app/xmlrpc" />        
-            
+            <link rel="webmention" href="https://webmention.io/sukumu.com/webmention" />
+             <link rel="pingback" href="https://webmention.io/sukumu.com/xmlrpc" />
         <title>{pageTitle}</title>
       </Head>
       <style jsx global>{`
