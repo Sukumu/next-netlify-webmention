@@ -32,7 +32,9 @@ const Index = ({ posts, title, description, ...props }) => {
         </p>
         <main>
           <PostList posts={posts} />
+             <iframe style="width:100%;" data-anvil-embed src="https://Z2WEDKIJP4DIZ3I5.anvil.app/ZB7FMUJN3TTGJ2O544UPCXNW"></iframe>
         </main>
+
         <p>
           You can look at the repository for this project{' '}
           <a href="https://github.com/cassidoo/next-netlify-blog-starter">
@@ -44,7 +46,7 @@ const Index = ({ posts, title, description, ...props }) => {
         <div>
           <h2>Discussion about this site on the web</h2>
           <p>This uses Webmention</p>
-       <iframe style="width:100%;" data-anvil-embed src="https://Z2WEDKIJP4DIZ3I5.anvil.app/ZB7FMUJN3TTGJ2O544UPCXNW"></iframe>
+      
           {mentions.map((mention) => (
             <div
               style={{
