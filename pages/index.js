@@ -18,10 +18,13 @@ const Index = ({ posts, title, description, ...props }) => {
   }, []);
   return (
     <>
-            <script src="https://anvil.works/embed.js" async></script>
-        <iframe style="width:100%;" data-anvil-embed src="https://Z2WEDKIJP4DIZ3I5.anvil.app/ZB7FMUJN3TTGJ2O544UPCXNW"></iframe>
+
     
       <Layout pageTitle={title} description={description}>
+    
+         <script src="https://anvil.works/embed.js" async></script>
+       
+
         <h1 className="title">Welcome to this demo blog!</h1>
 
         <p className="description">
