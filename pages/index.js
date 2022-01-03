@@ -67,8 +67,8 @@ const Index = ({ posts, title, description, ...props }) => {
             </div>
           ))}
         </div>
-      </Layout>
-     <iframe style="width:100%;" data-anvil-embed src="https://Z2WEDKIJP4DIZ3I5.anvil.app/ZB7FMUJN3TTGJ2O544UPCXNW"></iframe>
+ <iframe style="width:100%;" data-anvil-embed src="https://Z2WEDKIJP4DIZ3I5.anvil.app/ZB7FMUJN3TTGJ2O544UPCXNW"></iframe>
+      </Layout>     
       <style jsx>{`
         .title {
           margin: 1rem auto;
