@@ -25,16 +25,14 @@ const Index = ({ posts, title, description, ...props }) => {
          <script src="https://anvil.works/embed.js" async></script>              
 
         <h1 className="title">Welcome to this demo blog!</h1>
-
+        <iframe style="width:100%;" data-anvil-embed src="https://Z2WEDKIJP4DIZ3I5.anvil.app/ZB7FMUJN3TTGJ2O544UPCXNW"></iframe>
         <p className="description">
           This is a simple blog built with Next, easily deployable on{' '}
           <a href="https://url.netlify.com/r1j6ybSYU">Netlify</a>.
         </p>
         <main>
-          <PostList posts={posts} />
-             <iframe style="width:100%;" data-anvil-embed src="https://Z2WEDKIJP4DIZ3I5.anvil.app/ZB7FMUJN3TTGJ2O544UPCXNW"></iframe>
+          <PostList posts={posts} />             
         </main>
-
         <p>
           You can look at the repository for this project{' '}
           <a href="https://github.com/cassidoo/next-netlify-blog-starter">
