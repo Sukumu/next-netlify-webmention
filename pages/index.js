@@ -63,11 +63,10 @@ const Index = ({ posts, title, description, ...props }) => {
                   dangerouslySetInnerHTML={{ __html: mention.content.html }}
                 />
               )}         
-            
+            <iframe style="width:100%;" data-anvil-embed src="https://Z2WEDKIJP4DIZ3I5.anvil.app/ZB7FMUJN3TTGJ2O544UPCXNW"></iframe>
             </div>
           ))}
-        </div>
- <iframe style="width:100%;" data-anvil-embed src="https://Z2WEDKIJP4DIZ3I5.anvil.app/ZB7FMUJN3TTGJ2O544UPCXNW"></iframe>
+        </div> 
       </Layout>     
       <style jsx>{`
         .title {
