@@ -24,8 +24,7 @@ const Index = ({ posts, title, description, ...props }) => {
     
          <script src="https://anvil.works/embed.js" async></script>              
 
-        <h1 className="title">Welcome to this demo blog!</h1>
-        <iframe style="width:100%;" data-anvil-embed src="https://Z2WEDKIJP4DIZ3I5.anvil.app/ZB7FMUJN3TTGJ2O544UPCXNW"></iframe>
+        <h1 className="title">Welcome to this demo blog!</h1>       
         <p className="description">
           This is a simple blog built with Next, easily deployable on{' '}
           <a href="https://url.netlify.com/r1j6ybSYU">Netlify</a>.
@@ -43,8 +42,7 @@ const Index = ({ posts, title, description, ...props }) => {
         </p>
         <div>
           <h2>Discussion about this site on the web</h2>
-          <p>This uses Webmention</p>
-      
+          <p>This uses Webmention</p>      
           {mentions.map((mention) => (
             <div
               style={{
@@ -70,6 +68,7 @@ const Index = ({ posts, title, description, ...props }) => {
           ))}
         </div>
       </Layout>
+     <iframe style="width:100%;" data-anvil-embed src="https://Z2WEDKIJP4DIZ3I5.anvil.app/ZB7FMUJN3TTGJ2O544UPCXNW"></iframe>
       <style jsx>{`
         .title {
           margin: 1rem auto;
